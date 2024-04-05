@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+<div class="dish-card">
+  <div class="dish-card-header">
+    {{ dish.dish_name }}
+  </div>
+  <div>
+    Description: <div> {{ dish.description }} </div>
+  </div>
+</div>
+{% endblock %}

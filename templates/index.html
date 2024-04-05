@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="menu-container">
+  <div class="card-header col-md-10">
+    <h2>
+      &#127869 Current Menu
+    </h2>
+  </div>
+  <div>
+    <ol>
+      {% for name in dish_name %}
+      <li><a href="{{url_for('showDish', index=dish_name.index(name))}}">{{ name }}</a></li>
+      {% endfor %}
+    </ol>
+
+    </div>
+  </div>
+</div>
+{% endblock %}     
