@@ -11,10 +11,10 @@ Web application using SQLite3, Python, and Flask to implement a simple MVC to dy
 
 ##  Features
 
--Template - Jinja
--Language - Python
--Database - SQLite3
--Framework - Flask
+- Template - Jinja
+- Language - Python
+- Database - SQLite3
+- Framework - Flask
 
 ## Installation
 
